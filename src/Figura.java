@@ -1,4 +1,4 @@
-class Figura {
+public class Figura {
 	
 	//pola metody i kontruktory
 	Punkt punkt;
@@ -22,7 +22,6 @@ class Figura {
 	}
 
 	String opis(){
-		return "Klasa Figura. Kolor obiektu: "+kolor;
+		return "Klasa Figura. Kolor obiektu: "+ kolor;
 	}
-
 }
